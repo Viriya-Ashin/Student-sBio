@@ -60,3 +60,121 @@ body {
     margin-left: 25%;
 }
 
+.mycontact {
+    margin: 10px;
+    border: 1px solid #777;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #9a8406;
+    padding: 30px;
+}
+
+.email {
+    background-color: orange;
+    color: darkcyan;
+    /* box-shadow: 0px 1px 2px whitesmoke; */
+    width: 100%;
+    padding: 5px;
+    /* background-color: #777; */
+    /* border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; */
+    &:before {
+        /* border: 1px solid; */
+        padding: 5px 20px 5px 5px; 
+        width: 20px;
+    
+        border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    background-color: beige;
+    }
+    &:after {
+        content: "Email: 123@example.come";
+        font-family: cursive;
+        /* padding-left: 10px; */
+        color: whitesmoke;
+    }
+}
+
+.address {
+    background-color: rgb(90, 86, 77);
+    color: darkcyan;
+    /* box-shadow: 0px 1px 2px whitesmoke; */
+    width: 100%;
+    padding: 5px;
+    /* background-color: #777; */
+    /* border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; */
+    &:before {
+        /* border: 1px solid; */
+        padding: 5px 20px 5px 5px; 
+        width: 20px;
+    
+        border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    background-color: beige;
+    }
+    &:after {
+        content: "Address: 123@example.come";
+        font-family: cursive;
+        /* padding-left: 10px; */
+        color: whitesmoke;
+    }
+
+}
+
+.telephone {
+    background-color: rgb(0, 26, 255);
+    color: darkcyan;
+    /* box-shadow: 0px 1px 2px whitesmoke; */
+    width: 100%;
+    padding: 5px;
+    /* background-color: #777; */
+    /* border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; */
+    &:before {
+        /* border: 1px solid; */
+        padding: 5px 20px 5px 5px; 
+        width: 20px;
+    
+        border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    background-color: beige;
+    }
+    &:after {
+        content: "Telephone: 123@example.come";
+        font-family: cursive;
+        /* padding-left: 10px; */
+        color: whitesmoke;
+    }
+
+}
+
+.github {
+    background-color: orange;
+    color: darkcyan;
+    /* box-shadow: 0px 1px 2px whitesmoke; */
+    width: 100%;
+    padding: 5px;
+    /* background-color: #777; */
+    /* border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; */
+    &:before {
+        /* border: 1px solid; */
+        padding: 5px 20px 5px 5px; 
+        width: 20px;
+    
+        border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    background-color: beige;
+    }
+    &:after {
+        content: "Github: 123@example.come";
+        font-family: cursive;
+        /* padding-left: 10px; */
+        color: whitesmoke;
+    }
+}
